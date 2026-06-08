@@ -71,13 +71,6 @@ No requiere servidor ni dependencias. Es HTML estático puro.
 
 ## Configuración
 
-### Foto personal
-
-1. Coloca tu foto cuadrada en `images/hero-photo.jpg`
-2. Dimensiones recomendadas: **400 × 400 píxeles**
-3. Actualiza el `src` en `index.html` (líneas ~58 y ~90):
-   - Cambia `images/placeholder.svg` por `images/hero-photo.jpg`
-
 ### Colores y estilos
 
 Las variables de color están definidas en `styles/style.css` en `:root` (modo claro) y `[data-theme="dark"]` (modo oscuro). Para cambiar el color acento (índigo):
